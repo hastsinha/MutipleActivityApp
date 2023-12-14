@@ -113,7 +113,6 @@ class HomePageFragment : Fragment() {
         binding.rvList.addOnScrollListener(object : RecyclerView.OnScrollListener() {
             override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
                 super.onScrolled(recyclerView, dx, dy)
-                isApiCallInProgress = false
                 val layoutManager = recyclerView.layoutManager as GridLayoutManager
                 val mCurrentVisibleItemPosition =
                     layoutManager.findLastVisibleItemPosition()
