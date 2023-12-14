@@ -30,9 +30,11 @@ Activity 2 :
 		It is a single product details page with Product details like name, image and price.
 		It consists of dummy data like sizes and colors but on click of it will only show us a Toast.
 		Add to Cart will add the product in the cart.
+ 	        Click on Product Page button(Present at the bottom of the page) -> This will open WebView
 
 Activity 3 :
 
 	WebView Page:
+ 		GoTo Product details Page -> Click on Product Page button(Present at the bottom of the page) -> This will open WebView 
 		It's a product information page that will open in Web View.
 		Since the data from API was not proper. It will only be loading same page for all the items.
