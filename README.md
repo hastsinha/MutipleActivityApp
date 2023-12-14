@@ -21,14 +21,12 @@ Activity 1 :
 
 	CartPage:
 		It is a product listing for the products that are added to the cart.
-		It also shows the total amount and tax amounts of the products.
-		We can checkout but it is dummy.
+		We can delete the products from the cart by clicking on cross icon.
 
 Activity 2 :
 
 	Product Details Page:
-		It is a single product details page with Product details like name, image and price.
-		It consists of dummy data like sizes and colors but on click of it will only show us a Toast.
+		It is a single product details page with Product details like name, image and price,etc.
 		Add to Cart will add the product in the cart.
  	        Click on Product Page button(Present at the bottom of the page) -> This will open WebView
 
